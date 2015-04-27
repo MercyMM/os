@@ -1,0 +1,28 @@
+git init
+
+//添加，提交文件
+git add <file>
+git commit -m "your comment"
+
+//查看工作区状态，查看日志文件
+git status 
+git log
+git log --format=oneline
+git reflog						//history commend
+
+//版本回退
+git reset --hard HEAD[^]
+git reset --hard <hash>
+
+//查看更改
+git diff HEAD -- <file>
+git diff <file>
+
+//撤销更改
+git checkout -- <file>			//丢弃工作区的修改，恢复到最近一次git commit和git add的状态
+
+//删除文件
+
+
+
+

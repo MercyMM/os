@@ -1,0 +1,6 @@
+1.解决了lib/klib.c编译成目标代码时生成__stack_chk_fail符号问题。
+	通过在编译时加上参数 -fno-stack-protector -02。
+	gcc -o klib.o -c klib.c -fno-stack-protector-02
+ps:	readelf -a klib.o 查看所有符号。
+
+

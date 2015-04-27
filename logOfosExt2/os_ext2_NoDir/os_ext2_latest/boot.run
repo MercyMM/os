@@ -1,0 +1,7 @@
+#!/bin/sh 
+	set -x
+	
+	nasm boot_ext2.asm -o boot_ext2.bin
+	sleep 1
+	dd if=boot_ext2.bin of=a.img bs=512 count=1 conv=notrunc
+

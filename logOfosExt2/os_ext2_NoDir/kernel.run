@@ -1,0 +1,8 @@
+#!/bin/sh 
+	set -x
+	
+	nasm -f elf kernel.asm -o kernel.o
+	nasm -f elf string.asm -o string.o
+	gcc	-c -fno-builtin -fno-stack-protector -O2 -o start.o start.c
+	ld -s -Ttext 0x100000 kernel.o start.o string.o -o kernel.bin
+

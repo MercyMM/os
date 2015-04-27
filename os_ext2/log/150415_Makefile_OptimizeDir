@@ -1,0 +1,6 @@
+0.优化了loader.asm中inode寻址使用ds的问题
+
+
+1.优化工程目录
+2.编写Makefile
+3.实现汇编C函数互相调用

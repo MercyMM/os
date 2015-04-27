@@ -1,0 +1,8 @@
+#!/bin/sh 
+	set -x
+	
+	nasm -f elf kernel.asm -o kernel.o
+	gcc -c -o choose.o choose.c
+	
+	ld -s -Ttext 0x30400 kernel.o choose.o -o kernel.bin
+
