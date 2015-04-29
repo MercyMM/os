@@ -1,0 +1,746 @@
+LL
+translation_unit
+declaration_specifiers
+type_specifier
+
+#: fun  (  
+declarator
+direct_declarator
+
+#: (  )  
+
+#: )  {  
+
+#: {  int  
+function_definition_list
+function_definition
+compound_statement
+
+#: int  i  
+block_item_list
+block_item
+declaration
+declaration_specifiers
+type_specifier
+
+#: i  ;  
+init_declarator_list
+init_declarator
+declarator
+direct_declarator
+
+#: ;  a  
+
+#: a  =  
+block_item
+statement
+expression_statement
+expression
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  -  
+here
+=  roll back
+second extent
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  -  
+here
+=  assignment_operator
+
+#: -  1  
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: 1  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  a  
+here
+;  pre scan
+roll back
+First extent
+conditional_expression
+logical_OR_expression
+logical_AND_expression
+inclusive_OR_expression
+exclusive_OR_expression
+AND_expression
+equality_expression
+relational_expression
+shift_expression
+additive_expression
+multiplicative_expression
+cast_expression
+unary_expression
+
+#: 1  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  a  
+here
+;  
+#: a  =  
+block_item
+statement
+expression_statement
+expression
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  -  
+here
+=  roll back
+second extent
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  -  
+here
+=  assignment_operator
+
+#: -  a  
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: a  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  a  
+here
+;  pre scan
+roll back
+First extent
+conditional_expression
+logical_OR_expression
+logical_AND_expression
+inclusive_OR_expression
+exclusive_OR_expression
+AND_expression
+equality_expression
+relational_expression
+shift_expression
+additive_expression
+multiplicative_expression
+cast_expression
+unary_expression
+
+#: a  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  a  
+here
+;  
+#: a  =  
+block_item
+statement
+expression_statement
+expression
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  &  
+here
+=  roll back
+second extent
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  &  
+here
+=  assignment_operator
+
+#: &  a  
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: a  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  a  
+here
+;  pre scan
+roll back
+First extent
+conditional_expression
+logical_OR_expression
+logical_AND_expression
+inclusive_OR_expression
+exclusive_OR_expression
+AND_expression
+equality_expression
+relational_expression
+shift_expression
+additive_expression
+multiplicative_expression
+cast_expression
+unary_expression
+
+#: a  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  a  
+here
+;  
+#: a  =  
+block_item
+statement
+expression_statement
+expression
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  !  
+here
+=  roll back
+second extent
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  !  
+here
+=  assignment_operator
+
+#: !  a  
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: a  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  *  
+here
+;  pre scan
+roll back
+First extent
+conditional_expression
+logical_OR_expression
+logical_AND_expression
+inclusive_OR_expression
+exclusive_OR_expression
+AND_expression
+equality_expression
+relational_expression
+shift_expression
+additive_expression
+multiplicative_expression
+cast_expression
+unary_expression
+
+#: a  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  *  
+here
+;  
+#: *  str  
+block_item
+statement
+expression_statement
+expression
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: str  =  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  pre scan
+roll back
+second extent
+unary_expression
+
+#: str  =  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  assignment_operator
+
+#: *  ch  
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  *  
+here
+;  pre scan
+roll back
+First extent
+conditional_expression
+logical_OR_expression
+logical_AND_expression
+inclusive_OR_expression
+exclusive_OR_expression
+AND_expression
+equality_expression
+relational_expression
+shift_expression
+additive_expression
+multiplicative_expression
+cast_expression
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  *  
+here
+;  
+#: *  str  
+block_item
+statement
+expression_statement
+expression
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: str  =  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  pre scan
+roll back
+second extent
+unary_expression
+
+#: str  =  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  assignment_operator
+
+#: *  *  
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: *  ch  
+cast_expression
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  str  
+here
+;  pre scan
+pre scan
+roll back
+First extent
+conditional_expression
+logical_OR_expression
+logical_AND_expression
+inclusive_OR_expression
+exclusive_OR_expression
+AND_expression
+equality_expression
+relational_expression
+shift_expression
+additive_expression
+multiplicative_expression
+cast_expression
+unary_expression
+
+#: *  ch  
+cast_expression
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  str  
+here
+;  
+#: str  =  
+block_item
+statement
+expression_statement
+expression
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  roll back
+second extent
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  assignment_operator
+
+#: *  *  
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: *  *  
+cast_expression
+unary_expression
+
+#: *  ch  
+cast_expression
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  str  
+here
+;  pre scan
+pre scan
+pre scan
+roll back
+First extent
+conditional_expression
+logical_OR_expression
+logical_AND_expression
+inclusive_OR_expression
+exclusive_OR_expression
+AND_expression
+equality_expression
+relational_expression
+shift_expression
+additive_expression
+multiplicative_expression
+cast_expression
+unary_expression
+
+#: *  *  
+cast_expression
+unary_expression
+
+#: *  ch  
+cast_expression
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  str  
+here
+;  
+#: str  =  
+block_item
+statement
+expression_statement
+expression
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  roll back
+second extent
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  assignment_operator
+
+#: *  *  
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: *  ch  
+cast_expression
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  str  
+here
+;  pre scan
+pre scan
+roll back
+First extent
+conditional_expression
+logical_OR_expression
+logical_AND_expression
+inclusive_OR_expression
+exclusive_OR_expression
+AND_expression
+equality_expression
+relational_expression
+shift_expression
+additive_expression
+multiplicative_expression
+cast_expression
+unary_expression
+
+#: *  ch  
+cast_expression
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  str  
+here
+;  
+#: str  =  
+block_item
+statement
+expression_statement
+expression
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  roll back
+second extent
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  assignment_operator
+
+#: *  ch  
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  *  
+here
+;  pre scan
+roll back
+First extent
+conditional_expression
+logical_OR_expression
+logical_AND_expression
+inclusive_OR_expression
+exclusive_OR_expression
+AND_expression
+equality_expression
+relational_expression
+shift_expression
+additive_expression
+multiplicative_expression
+cast_expression
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  *  
+here
+;  
+#: *  *  
+block_item
+statement
+expression_statement
+expression
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: *  str  
+cast_expression
+unary_expression
+
+#: str  =  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  pre scan
+pre scan
+roll back
+second extent
+unary_expression
+
+#: *  str  
+cast_expression
+unary_expression
+
+#: str  =  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: =  *  
+here
+=  assignment_operator
+
+#: *  ch  
+assignment_expression
+identify_assign_exp
+mark
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  }  
+here
+;  pre scan
+roll back
+First extent
+conditional_expression
+logical_OR_expression
+logical_AND_expression
+inclusive_OR_expression
+exclusive_OR_expression
+AND_expression
+equality_expression
+relational_expression
+shift_expression
+additive_expression
+multiplicative_expression
+cast_expression
+unary_expression
+
+#: ch  ;  
+cast_expression
+unary_expression
+postfix_expression
+primary_expression
+
+#: ;  }  
+here
+;  
+#: }  NULL  

@@ -1,0 +1,161 @@
+int main()
+{
+   int row, c, n, temp;
+ 
+   printf("Enter the number of rows in pyramid of stars you wish to see ");
+   scanf("%d",&n);
+ 
+   temp = n;
+ 
+   for ( row = 1 ; row <= n ; row++ )
+   {
+      for ( c = 1 ; c < temp ; c++ )
+         printf(" ");
+ 
+      temp--;
+ 
+      for ( c = 1 ; c <= 2*row - 1 ; c++ )
+         printf("*");
+ 
+      printf("\n");
+   }
+ 
+   return 0;
+}
+//test2
+int main()
+{
+  char ch;
+ 
+  printf("Enter a character\n");
+  scanf("%c", &ch);
+ 
+  if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' || ch == 'i' || ch == 'I' || ch =='o' || ch=='O' || ch == 'u' || ch == 'U')
+    printf("%c is a vowel.\n", ch);
+  else
+    printf("%c is not a vowel.\n", ch);
+ 
+  return 0;
+}
+
+//test3
+int main() {
+  int a, b, x, y, t, gcd, lcm;
+ 
+  printf("Enter two integers\n");
+  scanf("%d%d", &x, &y);
+ 
+  a = x;
+  b = y;
+ 
+  while (b != 0) {
+    t = b;
+    b = a % b;
+    a = t;
+  }
+ 
+  gcd = a;
+  lcm = (x*y)/gcd;
+ 
+  printf("Greatest common divisor of %d and %d = %d\n", x, y, gcd);
+  printf("Least common multiple of %d and %d = %d\n", x, y, lcm);
+ 
+  return 0;
+}
+
+//test4
+int main()
+{
+   int n, sum = 0, remainder;
+ 
+   printf("Enter an integer\n");
+   scanf("%d",&n);
+ 
+   while(n != 0)
+   {
+      remainder = n % 10;
+      sum = sum + remainder;
+      n = n / 10;
+   }
+ 
+   printf("Sum of digits of entered number = %d\n",sum);
+ 
+   return 0;
+}
+
+//test5
+int main()
+{
+  int n, c, k;
+ 
+  printf("Enter an integer in decimal number system\n");
+  scanf("%d", &n);
+ 
+  printf("%d in binary number system is:\n", n);
+ 
+  for (c = 31; c >= 0; c--)
+  {
+    k = n >> c;
+ 
+    if (k & 1)
+      printf("1");
+    else
+      printf("0");
+  }
+ 
+  printf("\n");
+ 
+  return 0;
+}
+
+//test6
+int main()
+{
+   int array[100], position, c, n, value;
+ 
+   printf("Enter number of elements in array\n");
+   scanf("%d", &n);
+ 
+   printf("Enter %d elements\n", n);
+ 
+   for (c = 0; c < n; c++)
+      scanf("%d", &array[c]);
+ 
+   printf("Enter the location where you wish to insert an element\n");
+   scanf("%d", &position);
+ 
+   printf("Enter the value to insert\n");
+   scanf("%d", &value);
+ 
+   for (c = n - 1; c >= position - 1; c--)
+      array[c+1] = array[c];
+ 
+   array[position-1] = value;
+ 
+   printf("Resultant array is\n");
+ 
+   for (c = 0; c <= n; c++)
+      printf("%d\n", array[c]);
+ while(*temp)
+   {
+      ch = *temp;
+ 
+      if ( !check_vowel(ch) )
+      {
+         *pointer = ch;
+         pointer++;
+      }
+      temp++;
+   }
+   *pointer = '\0';
+ 
+   return 0;
+}
+//test7
+//test8
+//test9
+//test10
+//test11
+//test12
+//test13
+//test14

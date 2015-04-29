@@ -1,0 +1,26 @@
+分屏
+:vsp +filename
+:sp
+
+ctags
+:ctrl+] 查找
+:ctrl+t 返回
+:tp     tags previous
+:tn		tags next
+:ts		tags list
+$ctags -r *
+
+跳到第n行
+:n
+ngg
+nG
+
+撤销，反撤销
+u
+ctrl+r
+
+目录列表
+F3
+
+
+

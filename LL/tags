@@ -1,0 +1,734 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	test/test_struct_def.c	/^union A{$/;"	u	file:
+AND_expression	grammar/grammar.0.1.c	/^void AND_expression()$/;"	f
+AND_expression	grammar/grammar.0.2.c	/^void AND_expression()$/;"	f
+AND_expression	grammar/grammar.c	/^void AND_expression()$/;"	f
+BNF_NR	grammar/grammar.h	7;"	d
+CHILD	test/test_init.c	/^	CHILD$/;"	e	enum:__anon4	file:
+DJBHash	lex/lex.c	/^unsigned int DJBHash(char *str)$/;"	f
+END_OF_FILE	lex/lex.h	4;"	d
+ENTER	grammar/grammar.0.1.c	16;"	d	file:
+ENTER	grammar/grammar.0.2.c	16;"	d	file:
+ENTER	grammar/grammar.c	16;"	d	file:
+ERR_COMMENT	lex/error.h	7;"	d
+ERR_CONST_CHAR	lex/error.h	10;"	d
+ERR_ELLIPSE	lex/error.h	11;"	d
+ERR_ESCAP	lex/error.h	9;"	d
+ERR_HEX	lex/error.h	3;"	d
+ERR_ID	lex/error.h	4;"	d
+ERR_ID_FLOW	lex/error.h	5;"	d
+ERR_MEM	lex/error.h	6;"	d
+ERR_STRING	lex/error.h	8;"	d
+FALSE	grammar/grammar.0.1.c	19;"	d	file:
+FALSE	grammar/grammar.0.2.c	19;"	d	file:
+FALSE	grammar/grammar.h	27;"	d
+FIRST_DATA_SIZE	grammar/grammar.h	10;"	d
+FOLLOW_DATA_SIZE	grammar/grammar.h	11;"	d
+FUNC_NR	grammar/grammar.h	8;"	d
+GammarObj	Makefile	/^GammarObj=.\/grammar\/grammar.o$/;"	m
+INT	test/test_typedef.c	/^typedef int INT;$/;"	t	file:
+IS_OPERATOR	grammar/grammar.h	15;"	d
+JSHash	grammar/grammar.0.1.c	/^static unsigned int JSHash(char *str)$/;"	f	file:
+JSHash	grammar/grammar.0.2.c	/^static unsigned int JSHash(char *str)$/;"	f	file:
+JSHash	grammar/grammar.c	/^static unsigned int JSHash(char *str)$/;"	f	file:
+JSHash	test/test_grammar.c	/^unsigned int JSHash(char *str)$/;"	f
+LL	grammar/grammar.0.1.c	/^int LL(void)$/;"	f
+LL	grammar/grammar.0.2.c	/^int LL(void)$/;"	f
+LL	grammar/grammar.c	/^int LL(void)$/;"	f
+LR	test/test_program.c	/^int LR(void)$/;"	f
+LexObj	Makefile	/^LexObj=.\/lex\/lex.o$/;"	m
+MAN	test/test_init.c	/^	MAN,$/;"	e	enum:__anon4	file:
+MAP_NR	lex/lex.h	5;"	d
+MAX_TRANSFER	test/usb-skeleton.c	37;"	d	file:
+NONTSYM	grammar/grammar.h	36;"	d
+NONTSYM	grammar/grammar.h	38;"	d
+NONTSYM	lex/lex.h	12;"	d
+NONTSYM	lex/lex.h	14;"	d
+NONTSYM	lex/lex.h	33;"	d
+NONTSYM	lex/lex.h	35;"	d
+SA	test/test_typedef.c	/^} SA;$/;"	t	typeref:struct:me	file:
+STACK_SIZE	grammar/grammar.h	12;"	d
+STRING_HASH_SPACE	grammar/grammar.h	74;"	d
+STRING_HASH_TABLE_SIZE	lex/lex.c	15;"	d	file:
+STRING_HEAP_SIZE	lex/lex.c	10;"	d	file:
+TEST_OUTPUT	grammar/grammar.0.1.c	15;"	d	file:
+TEST_OUTPUT	grammar/grammar.0.2.c	15;"	d	file:
+TEST_OUTPUT	grammar/grammar.c	15;"	d	file:
+TRUE	grammar/grammar.0.1.c	18;"	d	file:
+TRUE	grammar/grammar.0.2.c	18;"	d	file:
+TRUE	grammar/grammar.h	26;"	d
+TSYM	grammar/grammar.h	33;"	d
+TSYM	grammar/grammar.h	35;"	d
+TSYM	lex/lex.h	11;"	d
+TSYM	lex/lex.h	30;"	d
+TSYM	lex/lex.h	32;"	d
+TSYM	lex/lex.h	9;"	d
+USB_SKEL_MINOR_BASE	test/usb-skeleton.c	34;"	d	file:
+USB_SKEL_PRODUCT_ID	test/usb-skeleton.c	28;"	d	file:
+USB_SKEL_VENDOR_ID	test/usb-skeleton.c	27;"	d	file:
+VN_NR	grammar/grammar.h	5;"	d
+VN_NR	icc.h	12;"	d
+VT_NR	grammar/grammar.h	4;"	d
+VT_NR	icc.h	11;"	d
+VT_N_NR	grammar/grammar.h	/^	VT_N_NR$/;"	e	enum:__anon1
+VT_N_NR	icc.h	13;"	d
+VT_N_NR	lex/lex.h	/^	VT_N_NR$/;"	e	enum:__anon2
+WOMEN	test/test_init.c	/^	WOMEN = 1,$/;"	e	enum:__anon4	file:
+WRITES_IN_FLIGHT	test/usb-skeleton.c	41;"	d	file:
+XOR_exp	test/test_exp.c	/^int XOR_exp(void)$/;"	f
+ZERO	grammar/grammar.h	/^	ZERO = 0,$/;"	e	enum:__anon1
+ZERO	lex/lex.h	/^	ZERO = 0,$/;"	e	enum:__anon2
+_CC_H_	icc.h	2;"	d
+_ERR_H_	lex/error.h	2;"	d
+_GRAMMAR_PHRASE_H_	grammar/grammar.h	2;"	d
+_LEX_H_	lex/lex.h	2;"	d
+_LL_H_	grammar/ll.h	2;"	d
+a	test/test_AP_PA.c	/^int (**********a)[1];$/;"	v
+a	test/test_AP_PA.c	/^int (**********a)[1][2];$/;"	v
+a	test/test_AP_PA.c	/^int (****a)[1];$/;"	v
+a	test/test_AP_PA.c	/^int (****a)[1][2];$/;"	v
+a	test/test_AP_PA.c	/^int (***a)[1];$/;"	v
+a	test/test_AP_PA.c	/^int (***a)[1][2];$/;"	v
+a	test/test_AP_PA.c	/^int (**a)[1];$/;"	v
+a	test/test_AP_PA.c	/^int (**a)[1][2];$/;"	v
+a	test/test_AP_PA.c	/^int (*a)[1];$/;"	v
+a	test/test_AP_PA.c	/^int (*a)[1][2];$/;"	v
+a	test/test_AP_PA.c	/^int (*a)[1][2][3];$/;"	v
+a	test/test_AP_PA.c	/^int (*a)[1][2][3][4];$/;"	v
+a	test/test_AP_PA.c	/^int **********a[1];$/;"	v
+a	test/test_AP_PA.c	/^int **********a[1][2];$/;"	v
+a	test/test_AP_PA.c	/^int ****a[1];$/;"	v
+a	test/test_AP_PA.c	/^int ****a[1][2];$/;"	v
+a	test/test_AP_PA.c	/^int ***a[1];$/;"	v
+a	test/test_AP_PA.c	/^int ***a[1][2];$/;"	v
+a	test/test_AP_PA.c	/^int **a[1][2];$/;"	v
+a	test/test_AP_PA.c	/^int *a[1];$/;"	v
+a	test/test_AP_PA.c	/^int *a[1][2];$/;"	v
+a	test/test_array.c	/^int a[1];$/;"	v
+a	test/test_array.c	/^int a[1][2];$/;"	v
+a	test/test_array.c	/^int a[1][2][3];$/;"	v
+a	test/test_array.c	/^int a[1][2][3][4];$/;"	v
+a	test/test_array.c	/^int a[1][2][3][4][5];$/;"	v
+a	test/test_array.c	/^int a[1][2][3][4][5][6];$/;"	v
+a	test/test_array.c	/^int a[1][2][3][4][5][6][7];$/;"	v
+a	test/test_array.c	/^int a[1][2][3][4][5][6][7][8];$/;"	v
+a	test/test_base_tp.c	/^int a;$/;"	v
+a	test/test_base_tp.c	/^signed a;$/;"	v
+a	test/test_base_tp.c	/^signed int a;$/;"	v
+a	test/test_base_tp.c	/^unsigned a;$/;"	v
+a	test/test_base_tp.c	/^unsigned int a;$/;"	v
+a	test/test_init.c	/^struct a {$/;"	s	file:
+a	test/test_pointer.c	/^int *****************a;$/;"	v
+a	test/test_pointer.c	/^int ***a;$/;"	v
+a	test/test_pointer.c	/^int **a;$/;"	v
+a	test/test_pointer.c	/^int *a;$/;"	v
+a	test/test_struct_def.c	/^	int a;$/;"	m	struct:a	file:
+a	test/test_struct_def.c	/^struct a{$/;"	s	file:
+a	test/test_typedef.c	/^	int a;$/;"	m	struct:me	file:
+a1	test/test_struct.c	/^enum A a1;$/;"	v	typeref:enum:A
+a1	test/test_struct.c	/^struct A a1;$/;"	v	typeref:struct:A
+a1	test/test_struct_def.c	/^	struct a a1;$/;"	m	union:A	typeref:struct:A::a	file:
+a10	test/test_struct.c	/^enum A (*a10)[1];$/;"	v	typeref:enum:A
+a10	test/test_struct.c	/^struct A (*a10)[1];$/;"	v	typeref:struct:A
+a11	test/test_struct.c	/^enum A (*a11)[1];$/;"	v	typeref:enum:A
+a11	test/test_struct.c	/^struct A (*a11)[1];$/;"	v	typeref:struct:A
+a12	test/test_struct.c	/^enum A (*a12)[1][2];$/;"	v	typeref:enum:A
+a12	test/test_struct.c	/^struct A (*a12)[1][2];$/;"	v	typeref:struct:A
+a14	test/test_struct.c	/^enum A (**a14)[1][2];$/;"	v	typeref:enum:A
+a14	test/test_struct.c	/^struct A (**a14)[1][2];$/;"	v	typeref:struct:A
+a15	test/test_struct.c	/^enum A (**a15)[1][2];$/;"	v	typeref:enum:A
+a15	test/test_struct.c	/^struct A (**a15)[1][2];$/;"	v	typeref:struct:A
+a2	test/test_struct.c	/^enum A a2;$/;"	v	typeref:enum:A
+a2	test/test_struct.c	/^struct A a2;$/;"	v	typeref:struct:A
+a3	test/test_struct.c	/^enum A *a3;$/;"	v	typeref:enum:A
+a3	test/test_struct.c	/^struct A *a3;$/;"	v	typeref:struct:A
+a4	test/test_struct.c	/^enum A *a4;$/;"	v	typeref:enum:A
+a4	test/test_struct.c	/^struct A *a4;$/;"	v	typeref:struct:A
+a5	test/test_struct.c	/^enum A **a5;$/;"	v	typeref:enum:A
+a5	test/test_struct.c	/^struct A **a5;$/;"	v	typeref:struct:A
+a6	test/test_struct.c	/^enum A **a6;$/;"	v	typeref:enum:A
+a6	test/test_struct.c	/^enum A *a6[1];$/;"	v	typeref:enum:A
+a6	test/test_struct.c	/^struct A **a6;$/;"	v	typeref:struct:A
+a6	test/test_struct.c	/^struct A *a6[1];$/;"	v	typeref:struct:A
+a7	test/test_struct.c	/^enum A *a7[1];$/;"	v	typeref:enum:A
+a7	test/test_struct.c	/^enum A *a7[1][2];$/;"	v	typeref:enum:A
+a7	test/test_struct.c	/^struct A *a7[1];$/;"	v	typeref:struct:A
+a7	test/test_struct.c	/^struct A *a7[1][2];$/;"	v	typeref:struct:A
+a8	test/test_struct.c	/^enum A **a8[1][2];$/;"	v	typeref:enum:A
+a8	test/test_struct.c	/^struct A **a8[1][2];$/;"	v	typeref:struct:A
+a9	test/test_struct.c	/^enum A **a9[1][2];$/;"	v	typeref:enum:A
+a9	test/test_struct.c	/^struct A **a9[1][2];$/;"	v	typeref:struct:A
+abstract_declarator	grammar/grammar.0.1.c	/^void abstract_declarator() $/;"	f
+abstract_declarator	grammar/grammar.0.2.c	/^void abstract_declarator() $/;"	f
+abstract_declarator	grammar/grammar.c	/^void abstract_declarator() $/;"	f
+abstract_declarator	grammar/ll.c	/^void abstract_declarator() $/;"	f
+accept_connection	stm.c	/^void accept_connection(int listenfd, char *remote_ip, int *fdmax)$/;"	f
+accept_connection	test/test_all.c	/^void accept_connection(int listenfd, char *remote_ip, int *fdmax)$/;"	f
+add_exp	test/test_exp.c	/^int add_exp(void)$/;"	f
+additive_expression	grammar/grammar.0.1.c	/^void additive_expression()$/;"	f
+additive_expression	grammar/grammar.0.2.c	/^void additive_expression()$/;"	f
+additive_expression	grammar/grammar.c	/^void additive_expression()$/;"	f
+af_stk_top	grammar/grammar.h	/^int *af_stk_top = assign_flg_stk + 64;$/;"	v
+age_sex	test/test_init.c	/^} age_sex[5] = {1, 2, 3, 4, 5};$/;"	v	typeref:union:c
+alpha_lex	lex/lex.c	/^int alpha_lex(void)$/;"	f
+and_exp	test/test_exp.c	/^int and_exp(void)$/;"	f
+argument_expression_list	grammar/grammar.0.1.c	/^void argument_expression_list()$/;"	f
+argument_expression_list	grammar/grammar.0.2.c	/^void argument_expression_list()$/;"	f
+argument_expression_list	grammar/grammar.c	/^void argument_expression_list()$/;"	f
+assign_flg_stk	grammar/grammar.h	/^int assign_flg_stk[64];$/;"	v
+assignment_expression	grammar/grammar.0.1.c	/^void assignment_expression()$/;"	f
+assignment_expression	grammar/grammar.0.2.c	/^void assignment_expression()$/;"	f
+assignment_expression	grammar/grammar.c	/^void assignment_expression()$/;"	f
+assignment_operator	grammar/grammar.0.1.c	/^int assignment_operator()$/;"	f
+assignment_operator	grammar/grammar.0.2.c	/^int assignment_operator()$/;"	f
+assignment_operator	grammar/grammar.c	/^int assignment_operator()$/;"	f
+b	test/test_base_tp.c	/^float b;$/;"	v
+b	test/test_init.c	/^	int b;$/;"	m	struct:a	file:
+b	test/test_init.c	/^struct a b[4] = {$/;"	v	typeref:struct:a
+b	test/test_struct_def.c	/^	int b;$/;"	m	union:A	file:
+base	lex/lex.h	/^	char *base;$/;"	m	struct:string_heap
+begin	grammar/grammar.h	/^	int begin;  \/\/标号=表索引：循环起始指令位置$/;"	m	struct:tree_node
+bit_AND_exp	test/test_exp.c	/^int bit_AND_exp(void)$/;"	f
+bit_OR_exp	test/test_exp.c	/^int bit_OR_exp(void)$/;"	f
+block_item	grammar/grammar.0.1.c	/^void block_item()$/;"	f
+block_item	grammar/grammar.0.2.c	/^void block_item()$/;"	f
+block_item	grammar/grammar.c	/^void block_item()$/;"	f
+block_item_list	grammar/grammar.0.1.c	/^void block_item_list()$/;"	f
+block_item_list	grammar/grammar.0.2.c	/^void block_item_list()$/;"	f
+block_item_list	grammar/grammar.c	/^void block_item_list()$/;"	f
+bnf	grammar/grammar.h	/^struct bnf$/;"	s
+bnf_set	grammar/grammar.h	/^struct bnf bnf_set[BNF_NR] = {0};$/;"	v	typeref:struct:bnf
+bulk_in_buffer	test/usb-skeleton.c	/^	unsigned char           *bulk_in_buffer;	\/* the buffer to receive data *\/$/;"	m	struct:usb_skel	file:
+bulk_in_copied	test/usb-skeleton.c	/^	int			bulk_in_copied;		\/* already copied to user space *\/$/;"	m	struct:usb_skel	file:
+bulk_in_endpointAddr	test/usb-skeleton.c	/^	__u8			bulk_in_endpointAddr;	\/* the address of the bulk in endpoint *\/$/;"	m	struct:usb_skel	file:
+bulk_in_filled	test/usb-skeleton.c	/^	int			bulk_in_filled;		\/* number of bytes in the buffer *\/$/;"	m	struct:usb_skel	file:
+bulk_in_size	test/usb-skeleton.c	/^	int			bulk_in_size;		\/* the size of the receive buffer *\/$/;"	m	struct:usb_skel	file:
+bulk_in_urb	test/usb-skeleton.c	/^	struct urb		*bulk_in_urb;		\/* the urb to read data with *\/$/;"	m	struct:usb_skel	typeref:struct:usb_skel::urb	file:
+bulk_in_wait	test/usb-skeleton.c	/^	wait_queue_head_t	bulk_in_wait;		\/* to wait for an ongoing read *\/$/;"	m	struct:usb_skel	file:
+bulk_out_endpointAddr	test/usb-skeleton.c	/^	__u8			bulk_out_endpointAddr;	\/* the address of the bulk out endpoint *\/$/;"	m	struct:usb_skel	file:
+c	test/test_base_tp.c	/^char c;$/;"	v
+c	test/test_base_tp.c	/^signed char c;$/;"	v
+c	test/test_base_tp.c	/^unsigned char c;$/;"	v
+c	test/test_init.c	/^union c{$/;"	u	file:
+c	test/test_struct_def.c	/^	char c;$/;"	m	union:A	file:
+case_block	grammar/grammar.0.1.c	/^void case_block()$/;"	f
+case_block	grammar/grammar.0.2.c	/^void case_block()$/;"	f
+case_block	grammar/grammar.c	/^void case_block()$/;"	f
+case_labeled_statement	grammar/grammar.0.1.c	/^void case_labeled_statement()$/;"	f
+case_labeled_statement	grammar/grammar.0.2.c	/^void case_labeled_statement()$/;"	f
+case_labeled_statement	grammar/grammar.c	/^void case_labeled_statement()$/;"	f
+case_labeled_statement_list	grammar/grammar.0.1.c	/^void case_labeled_statement_list()$/;"	f
+case_labeled_statement_list	grammar/grammar.0.2.c	/^void case_labeled_statement_list()$/;"	f
+case_labeled_statement_list	grammar/grammar.c	/^void case_labeled_statement_list()$/;"	f
+cast_exp	test/test_exp.c	/^int cast_exp(void)$/;"	f
+cast_expression	grammar/grammar.0.1.c	/^void cast_expression()$/;"	f
+cast_expression	grammar/grammar.0.2.c	/^void cast_expression()$/;"	f
+cast_expression	grammar/grammar.c	/^void cast_expression()$/;"	f
+ch	grammar/grammar.h	/^	char ch;$/;"	m	struct:seek
+ch	lex/lex.c	/^	char ch;$/;"	m	struct:seek	file:
+ch	lex/lex.h	/^	char ch;			\/\/当前扫描的字符$/;"	m	struct:input
+ch	test/test_init.c	/^		char ch;$/;"	m	struct:a::__anon3	file:
+ch	test/test_init.c	/^	char ch;$/;"	m	union:c	file:
+child	grammar/grammar.h	/^	struct tree_node *child;$/;"	m	struct:tree_node	typeref:struct:tree_node::tree_node
+cleaner_thread	stm.c	/^void cleaner_thread(void)$/;"	f
+cleaner_thread	test/test_all.c	/^void cleaner_thread(void)$/;"	f
+clear_connection_baggage	stm.c	/^void clear_connection_baggage(void * fdDataList, int fd, void * pMaster)$/;"	f
+clear_connection_baggage	test/test_all.c	/^void clear_connection_baggage(void * fdDataList, int fd, void * pMaster)$/;"	f
+close_source	lex/lex.c	/^void close_source(void)$/;"	f
+code	grammar/grammar.h	/^	int code; \/\/编码$/;"	m	struct:vtn
+code	grammar/grammar.h	/^	int code;$/;"	m	struct:tree_node
+code	icc.h	/^	int code; \/\/编码$/;"	m	struct:vtn
+code	lex/lex.h	/^	int code; 				\/\/编码$/;"	m	struct:vtn
+compound_statement	grammar/grammar.0.1.c	/^void compound_statement()$/;"	f
+compound_statement	grammar/grammar.0.2.c	/^void compound_statement()$/;"	f
+compound_statement	grammar/grammar.c	/^void compound_statement()$/;"	f
+conditional_expression	grammar/grammar.0.1.c	/^void conditional_expression()$/;"	f
+conditional_expression	grammar/grammar.0.2.c	/^void conditional_expression()$/;"	f
+conditional_expression	grammar/grammar.c	/^void conditional_expression()$/;"	f
+constant_expression	grammar/grammar.0.1.c	/^void constant_expression()$/;"	f
+constant_expression	grammar/grammar.0.2.c	/^void constant_expression()$/;"	f
+constant_expression	grammar/grammar.c	/^void constant_expression()$/;"	f
+create_str_hash_tbl	grammar/grammar.0.1.c	/^unsigned char *create_str_hash_tbl(void)$/;"	f
+create_str_hash_tbl	grammar/grammar.0.2.c	/^unsigned char *create_str_hash_tbl(void)$/;"	f
+create_str_hash_tbl	grammar/grammar.c	/^unsigned char *create_str_hash_tbl(void)$/;"	f
+create_str_hash_tbl	test/test_grammar.c	/^unsigned char * create_str_hash_tbl(void)$/;"	f
+d	test/test_base_tp.c	/^double d;$/;"	v
+d	test/test_base_tp.c	/^long double d;$/;"	v
+data	test/test_struct_def.c	/^	struct a data[8];$/;"	m	struct:__anon5	typeref:struct:__anon5::a	file:
+dbgprintf	test/test_all.c	/^long dbgprintf(char *format)$/;"	f
+deal_first_data	grammar/grammar.0.1.c	/^void deal_first_data(void)$/;"	f
+deal_first_data	grammar/grammar.0.2.c	/^void deal_first_data(void)$/;"	f
+deal_first_data	grammar/grammar.c	/^void deal_first_data(void)$/;"	f
+deal_follow_data	grammar/grammar.0.1.c	/^void deal_follow_data(void)$/;"	f
+deal_follow_data	grammar/grammar.0.2.c	/^void deal_follow_data(void)$/;"	f
+deal_follow_data	grammar/grammar.c	/^void deal_follow_data(void)$/;"	f
+declaration	grammar/grammar.0.1.c	/^void declaration()$/;"	f
+declaration	grammar/grammar.0.2.c	/^void declaration()$/;"	f
+declaration	grammar/grammar.c	/^void declaration()$/;"	f
+declaration	grammar/ll.c	/^void declaration()$/;"	f
+declaration_list	grammar/grammar.0.1.c	/^void declaration_list(void)$/;"	f
+declaration_list	grammar/grammar.0.2.c	/^void declaration_list(void)$/;"	f
+declaration_list	grammar/grammar.c	/^void declaration_list(void)$/;"	f
+declaration_list	grammar/ll.c	/^void declaration_list(void)$/;"	f
+declaration_specifiers	grammar/grammar.0.1.c	/^void declaration_specifiers()$/;"	f
+declaration_specifiers	grammar/grammar.0.2.c	/^void declaration_specifiers()$/;"	f
+declaration_specifiers	grammar/grammar.c	/^void declaration_specifiers()$/;"	f
+declaration_specifiers	grammar/ll.c	/^void declaration_specifiers()$/;"	f
+declarator	grammar/grammar.0.1.c	/^void declarator() $/;"	f
+declarator	grammar/grammar.0.2.c	/^void declarator() $/;"	f
+declarator	grammar/grammar.c	/^void declarator() $/;"	f
+declarator	grammar/ll.c	/^void declarator() $/;"	f
+designation	grammar/grammar.0.1.c	/^void designation( ) $/;"	f
+designation	grammar/grammar.0.2.c	/^void designation( ) $/;"	f
+designation	grammar/grammar.c	/^void designation( ) $/;"	f
+designation	grammar/ll.c	/^void designation( ) $/;"	f
+designator	grammar/grammar.0.1.c	/^void designator( ) $/;"	f
+designator	grammar/grammar.0.2.c	/^void designator( ) $/;"	f
+designator	grammar/grammar.c	/^void designator( ) $/;"	f
+designator	grammar/ll.c	/^void designator( ) $/;"	f
+designator_list	grammar/grammar.0.1.c	/^void designator_list( ) $/;"	f
+designator_list	grammar/grammar.0.2.c	/^void designator_list( ) $/;"	f
+designator_list	grammar/grammar.c	/^void designator_list( ) $/;"	f
+designator_list	grammar/ll.c	/^void designator_list( ) $/;"	f
+destroy_str_hash_tbl	grammar/grammar.0.1.c	/^void destroy_str_hash_tbl(void *addr)$/;"	f
+destroy_str_hash_tbl	grammar/grammar.0.2.c	/^void destroy_str_hash_tbl(void *addr)$/;"	f
+destroy_str_hash_tbl	grammar/grammar.c	/^void destroy_str_hash_tbl(void *addr)$/;"	f
+destroy_str_hash_tbl	test/test_grammar.c	/^void destroy_str_hash_tbl(void *addr)$/;"	f
+digit_lex	lex/lex.c	/^int digit_lex(void)$/;"	f
+direct_abstract_declarator	grammar/grammar.0.1.c	/^void direct_abstract_declarator() $/;"	f
+direct_abstract_declarator	grammar/grammar.0.2.c	/^void direct_abstract_declarator() $/;"	f
+direct_abstract_declarator	grammar/grammar.c	/^void direct_abstract_declarator() $/;"	f
+direct_abstract_declarator	grammar/ll.c	/^void direct_abstract_declarator() $/;"	f
+direct_declarator	grammar/grammar.0.1.c	/^void direct_declarator( )$/;"	f
+direct_declarator	grammar/grammar.0.2.c	/^void direct_declarator( )$/;"	f
+direct_declarator	grammar/grammar.c	/^void direct_declarator( )$/;"	f
+direct_declarator	grammar/ll.c	/^void direct_declarator( )$/;"	f
+enum_specifier	grammar/grammar.0.1.c	/^void enum_specifier( ) $/;"	f
+enum_specifier	grammar/grammar.0.2.c	/^void enum_specifier( ) $/;"	f
+enum_specifier	grammar/grammar.c	/^void enum_specifier( ) $/;"	f
+enum_specifier	grammar/ll.c	/^void enum_specifier( ) $/;"	f
+enumer_list	grammar/grammar.h	/^	void *enumer_list;	\/\/枚举常量列表头指针$/;"	m	struct:tree_node
+enumeration_constant	grammar/grammar.0.1.c	/^void enumeration_constant() $/;"	f
+enumeration_constant	grammar/grammar.0.2.c	/^void enumeration_constant() $/;"	f
+enumeration_constant	grammar/grammar.c	/^void enumeration_constant() $/;"	f
+enumeration_constant	grammar/ll.c	/^void enumeration_constant() $/;"	f
+enumerator	grammar/grammar.0.1.c	/^void enumerator() $/;"	f
+enumerator	grammar/grammar.0.2.c	/^void enumerator() $/;"	f
+enumerator	grammar/grammar.c	/^void enumerator() $/;"	f
+enumerator	grammar/ll.c	/^void enumerator() $/;"	f
+enumerator_list	grammar/grammar.0.1.c	/^void enumerator_list()$/;"	f
+enumerator_list	grammar/grammar.0.2.c	/^void enumerator_list()$/;"	f
+enumerator_list	grammar/grammar.c	/^void enumerator_list()$/;"	f
+enumerator_list	grammar/ll.c	/^void enumerator_list()$/;"	f
+equality_exp	test/test_exp.c	/^int equality_exp(void)$/;"	f
+equality_expression	grammar/grammar.0.1.c	/^void equality_expression()$/;"	f
+equality_expression	grammar/grammar.0.2.c	/^void equality_expression()$/;"	f
+equality_expression	grammar/grammar.c	/^void equality_expression()$/;"	f
+err_lock	test/usb-skeleton.c	/^	spinlock_t		err_lock;		\/* lock for errors *\/$/;"	m	struct:usb_skel	file:
+errors	test/usb-skeleton.c	/^	int			errors;			\/* the last request tanked *\/$/;"	m	struct:usb_skel	file:
+escap_lex	lex/lex.c	/^int escap_lex(void)$/;"	f
+exclusive_OR_expression	grammar/grammar.0.1.c	/^void exclusive_OR_expression()$/;"	f
+exclusive_OR_expression	grammar/grammar.0.2.c	/^void exclusive_OR_expression()$/;"	f
+exclusive_OR_expression	grammar/grammar.c	/^void exclusive_OR_expression()$/;"	f
+expression	grammar/grammar.0.1.c	/^void expression()$/;"	f
+expression	grammar/grammar.0.2.c	/^void expression()$/;"	f
+expression	grammar/grammar.c	/^void expression()$/;"	f
+expression_statement	grammar/grammar.0.1.c	/^void expression_statement()$/;"	f
+expression_statement	grammar/grammar.0.2.c	/^void expression_statement()$/;"	f
+expression_statement	grammar/grammar.c	/^void expression_statement()$/;"	f
+false	grammar/grammar.h	/^	int false;  \/\/标号=表索引：条件判断假出口的指令位置$/;"	m	struct:tree_node
+farmer_thread	stm.c	/^void farmer_thread(void td)$/;"	f
+farmer_thread	test/test_all.c	/^void farmer_thread(void td)$/;"	f
+fgetch	lex/lex.c	/^static inline char fgetch(FILE *fp)$/;"	f	file:
+filename	lex/lex.h	/^    char *filename;		\/\/文件名$/;"	m	struct:input
+first	grammar/grammar.h	/^struct first_follow first[VT_N_NR] = {0};$/;"	v	typeref:struct:first_follow
+first_data	grammar/grammar.h	/^int first_data[FIRST_DATA_SIZE] = {0};$/;"	v
+first_follow	grammar/grammar.h	/^struct first_follow$/;"	s
+flag	grammar/grammar.h	/^	int flag; \/\/place的标志，0未用，1临时变量，2表示常量，3表示普通变量$/;"	m	struct:tree_node
+follow	grammar/grammar.h	/^struct first_follow follow[VT_N_NR] = {0};$/;"	v	typeref:struct:first_follow
+follow_data	grammar/grammar.h	/^int follow_data[FOLLOW_DATA_SIZE] = {0};$/;"	v
+fp	lex/lex.h	/^    FILE *fp;$/;"	m	struct:input
+freeHeaders	test/test_all.c	/^void freeHeaders(char **headers)$/;"	f
+fun	test/test_all.c	/^void fun()$/;"	f
+fun	test/test_case.c	/^void fun()$/;"	f
+fun	test/test_conditional_exp.c	/^int fun()$/;"	f
+fun	test/test_inner_declar.c	/^void fun()$/;"	f
+fun	test/test_stm.c	/^int fun(char *str, int a[][13])$/;"	f
+fun	test/test_type_name.c	/^int fun()$/;"	f
+fun	test/test_typedef.c	/^typedef void(*fun)(int);$/;"	t	file:
+fun	test/test_unary_opt.c	/^void fun()$/;"	f
+fun2	test/test_func.c	/^int fun2(int *a, int b[]) { }$/;"	f
+fun2	test/test_func.c	/^static int fun2(int a, int b){ }$/;"	f	file:
+fun_flg	grammar/grammar.0.1.c	/^int fun_flg = FALSE;$/;"	v
+fun_flg	grammar/grammar.0.2.c	/^int fun_flg = FALSE;$/;"	v
+fun_flg	grammar/grammar.h	/^int fun_flg = FALSE;$/;"	v
+func	grammar/grammar.h	/^	void (*func[FUNC_NR])(void); \/\/规则函数$/;"	m	struct:bnf
+func	test/test_goto.c	/^void func()$/;"	f
+function_definition	grammar/grammar.0.1.c	/^void function_definition()$/;"	f
+function_definition	grammar/grammar.0.2.c	/^void function_definition()$/;"	f
+function_definition	grammar/grammar.c	/^void function_definition()$/;"	f
+function_definition	grammar/ll.c	/^void function_definition()$/;"	f
+function_definition_list	grammar/grammar.0.1.c	/^void function_definition_list( )$/;"	f
+function_definition_list	grammar/grammar.0.2.c	/^void function_definition_list( )$/;"	f
+function_definition_list	grammar/grammar.c	/^void function_definition_list( )$/;"	f
+function_definition_list	grammar/ll.c	/^void function_definition_list( )$/;"	f
+get_code_bnf_nr	test/test_grammar.c	/^static int get_code_bnf_nr(struct vtn *vtn_tbl, int code)$/;"	f	file:
+get_in_addr	stm.c	/^void *get_in_addr(struct sockaddr *sa)$/;"	f
+get_in_addr	test/test_all.c	/^void *get_in_addr(struct sockaddr *sa)$/;"	f
+get_next_token	lex/lex.c	/^int get_next_token(void)$/;"	f
+get_vtn_string	lex/lex.c	/^const char *get_vtn_string(int code)$/;"	f
+grammar	grammar/grammar.0.1.c	/^int grammar(void)$/;"	f
+grammar	grammar/grammar.0.2.c	/^int grammar(void)$/;"	f
+grammar	grammar/grammar.c	/^int grammar(void)$/;"	f
+grammar	test/test_grammar.c	/^int grammar(void)$/;"	f
+hex	lex/lex.c	/^static int hex(char ch)$/;"	f	file:
+i	test/test_init.c	/^	int i;$/;"	m	union:c	file:
+id	test/test_for.c	/^void id(void)$/;"	f
+id	test/test_init.c	/^		int id;$/;"	m	struct:a::__anon3	file:
+identify_assign_exp	grammar/grammar.0.2.c	/^int  identify_assign_exp(void)$/;"	f
+identify_assign_exp	grammar/grammar.c	/^int  identify_assign_exp(void)$/;"	f
+idx	grammar/grammar.h	/^	int idx;$/;"	m	struct:first_follow
+inclusive_OR_expression	grammar/grammar.0.1.c	/^void inclusive_OR_expression()$/;"	f
+inclusive_OR_expression	grammar/grammar.0.2.c	/^void inclusive_OR_expression()$/;"	f
+inclusive_OR_expression	grammar/grammar.c	/^void inclusive_OR_expression()$/;"	f
+init_declarator	grammar/grammar.0.1.c	/^void init_declarator()$/;"	f
+init_declarator	grammar/grammar.0.2.c	/^void init_declarator()$/;"	f
+init_declarator	grammar/grammar.c	/^void init_declarator()$/;"	f
+init_declarator	grammar/ll.c	/^void init_declarator()$/;"	f
+init_declarator_list	grammar/grammar.0.1.c	/^void init_declarator_list()$/;"	f
+init_declarator_list	grammar/grammar.0.2.c	/^void init_declarator_list()$/;"	f
+init_declarator_list	grammar/grammar.c	/^void init_declarator_list()$/;"	f
+init_declarator_list	grammar/ll.c	/^void init_declarator_list()$/;"	f
+init_ff	test/test_grammar.c	/^void init_ff(struct first_follow *first, struct first_follow *follow)$/;"	f
+init_first	grammar/grammar.0.1.c	/^void init_first(void)$/;"	f
+init_first	grammar/grammar.0.2.c	/^void init_first(void)$/;"	f
+init_first	grammar/grammar.c	/^void init_first(void)$/;"	f
+init_first_data	grammar/grammar.0.1.c	/^int init_first_data(char *file)$/;"	f
+init_first_data	grammar/grammar.0.2.c	/^int init_first_data(char *file)$/;"	f
+init_first_data	grammar/grammar.c	/^int init_first_data(char *file)$/;"	f
+init_follow	grammar/grammar.0.1.c	/^void init_follow(void)$/;"	f
+init_follow	grammar/grammar.0.2.c	/^void init_follow(void)$/;"	f
+init_follow	grammar/grammar.c	/^void init_follow(void)$/;"	f
+init_follow_data	grammar/grammar.0.1.c	/^int init_follow_data(char *file)$/;"	f
+init_follow_data	grammar/grammar.0.2.c	/^int init_follow_data(char *file)$/;"	f
+init_follow_data	grammar/grammar.c	/^int init_follow_data(char *file)$/;"	f
+init_lex	lex/lex.c	/^void init_lex(char *file)$/;"	f
+init_string_heap	lex/lex.c	/^void init_string_heap(struct string_heap *str_heap, int size)$/;"	f
+init_vb_map	test/test_grammar.c	/^void init_vb_map(struct vtn_bnf_map *vb_map, struct bnf *bnf_set)$/;"	f
+init_vtn_tbl	test/test_grammar.c	/^void init_vtn_tbl(struct vtn *vtn_tbl, struct vtn_bnf_map *vb_map)$/;"	f
+initialize_threads	stm.c	/^void initialize_threads()$/;"	f
+initialize_threads	test/test_all.c	/^void initialize_threads()$/;"	f
+initializer	grammar/grammar.0.1.c	/^void initializer( ) $/;"	f
+initializer	grammar/grammar.0.2.c	/^void initializer( ) $/;"	f
+initializer	grammar/grammar.c	/^void initializer( ) $/;"	f
+initializer	grammar/ll.c	/^void initializer( ) $/;"	f
+initializer_list	grammar/grammar.0.1.c	/^void initializer_list( ) $/;"	f
+initializer_list	grammar/grammar.0.2.c	/^void initializer_list( ) $/;"	f
+initializer_list	grammar/grammar.c	/^void initializer_list( ) $/;"	f
+initializer_list	grammar/ll.c	/^void initializer_list( ) $/;"	f
+input	lex/lex.h	/^struct input input;$/;"	v	typeref:struct:input
+input	lex/lex.h	/^struct input$/;"	s
+interface	test/usb-skeleton.c	/^	struct usb_interface	*interface;		\/* the interface for this device *\/$/;"	m	struct:usb_skel	typeref:struct:usb_skel::usb_interface	file:
+io_mutex	test/usb-skeleton.c	/^	struct mutex		io_mutex;		\/* synchronize I\/O with disconnect *\/$/;"	m	struct:usb_skel	typeref:struct:usb_skel::mutex	file:
+is_assignment_op	grammar/grammar.0.1.c	/^static int is_assignment_op(int op)$/;"	f	file:
+is_assignment_op	grammar/grammar.0.2.c	/^static int is_assignment_op(int op)$/;"	f	file:
+is_assignment_op	grammar/grammar.c	/^static int is_assignment_op(int op)$/;"	f	file:
+is_condition_exp	grammar/grammar.0.1.c	406;"	d	file:
+is_first	grammar/grammar.0.1.c	/^static inline int is_first(int vn_code, int vt_code)$/;"	f	file:
+is_first	grammar/grammar.0.2.c	/^static inline int is_first(int vn_code, int vt_code)$/;"	f	file:
+is_first	grammar/grammar.c	/^static inline int is_first(int vn_code, int vt_code)$/;"	f	file:
+is_first	test/test_grammar.c	/^static int is_first(struct first_follow *first, int vn_code, int vt_code)$/;"	f	file:
+is_follow	grammar/grammar.0.1.c	/^static inline int is_follow(int vn_code, int vt_code)$/;"	f	file:
+is_follow	grammar/grammar.0.2.c	/^static inline int is_follow(int vn_code, int vt_code)$/;"	f	file:
+is_follow	grammar/grammar.c	/^static inline int is_follow(int vn_code, int vt_code)$/;"	f	file:
+is_follow	test/test_grammar.c	/^static int is_follow(struct first_follow *follow, int vn_code, int vt_code)$/;"	f	file:
+is_roll_back	grammar/grammar.0.1.c	/^int is_roll_back(int op)$/;"	f
+is_type	grammar/grammar.0.1.c	/^static int is_type(int scan)$/;"	f	file:
+is_type	grammar/grammar.0.2.c	/^static int is_type(int scan)$/;"	f	file:
+is_type	grammar/grammar.c	/^static int is_type(int scan)$/;"	f	file:
+ishex	grammar/grammar.h	19;"	d
+isoctal	grammar/grammar.h	24;"	d
+iteration_statement	grammar/grammar.0.1.c	/^void iteration_statement()$/;"	f
+iteration_statement	grammar/grammar.0.2.c	/^void iteration_statement()$/;"	f
+iteration_statement	grammar/grammar.c	/^void iteration_statement()$/;"	f
+jump_statement	grammar/grammar.0.1.c	/^void jump_statement()$/;"	f
+jump_statement	grammar/grammar.0.2.c	/^void jump_statement()$/;"	f
+jump_statement	grammar/grammar.c	/^void jump_statement()$/;"	f
+kref	test/usb-skeleton.c	/^	struct kref		kref;$/;"	m	struct:usb_skel	typeref:struct:usb_skel::kref	file:
+l	test/test_base_tp.c	/^long int l;$/;"	v
+l	test/test_base_tp.c	/^long l;$/;"	v
+l	test/test_base_tp.c	/^long long l;$/;"	v
+l	test/test_base_tp.c	/^signed long int l;$/;"	v
+l	test/test_base_tp.c	/^signed long l;$/;"	v
+l	test/test_base_tp.c	/^signed long long int l;$/;"	v
+l	test/test_base_tp.c	/^signed long long l;$/;"	v
+l	test/test_base_tp.c	/^unsigned long int l;$/;"	v
+l	test/test_base_tp.c	/^unsigned long l;$/;"	v
+l	test/test_base_tp.c	/^unsigned long long int l;$/;"	v
+l	test/test_base_tp.c	/^unsigned long long l;$/;"	v
+labeled_statement	grammar/grammar.0.1.c	/^void labeled_statement()$/;"	f
+labeled_statement	grammar/grammar.0.2.c	/^void labeled_statement()$/;"	f
+labeled_statement	grammar/grammar.c	/^void labeled_statement()$/;"	f
+lex	lex/lex.c	/^int lex(void)$/;"	f
+limit_sem	test/usb-skeleton.c	/^	struct semaphore	limit_sem;		\/* limiting the number of writes in progress *\/$/;"	m	struct:usb_skel	typeref:struct:usb_skel::semaphore	file:
+ll_stack	grammar/grammar.h	/^struct tree_node *ll_stack[STACK_SIZE] = {0};$/;"	v	typeref:struct:tree_node
+logical_AND_expression	grammar/grammar.0.1.c	/^void logical_AND_expression()$/;"	f
+logical_AND_expression	grammar/grammar.0.2.c	/^void logical_AND_expression()$/;"	f
+logical_AND_expression	grammar/grammar.c	/^void logical_AND_expression()$/;"	f
+logical_OR_expression	grammar/grammar.0.1.c	/^void logical_OR_expression()$/;"	f
+logical_OR_expression	grammar/grammar.0.2.c	/^void logical_OR_expression()$/;"	f
+logical_OR_expression	grammar/grammar.c	/^void logical_OR_expression()$/;"	f
+main	icc.c	/^int main(int argc, char *argv[])$/;"	f
+main	stm.c	/^int main(void)$/;"	f
+main	test/test_all.c	/^int main(void)$/;"	f
+main	test/test_program.c	/^int main(int argc, char *argv[]) $/;"	f
+main	test/test_program2.c	/^int main() {$/;"	f
+main	test/test_program2.c	/^int main()$/;"	f
+main	test/test_shortest.c	/^int main(){$/;"	f
+main	test/test_typedef.c	/^int main(int argc, char *argv[])$/;"	f
+main_reduction	test/test_grammar.c	/^int main_reduction(int code)$/;"	f
+main_reduction	test/test_program.c	/^int main_reduction(int code)$/;"	f
+malloc_str	lex/lex.c	/^char *malloc_str(unsigned int size)$/;"	f
+map_idx	grammar/grammar.h	/^	int map_idx; \/\/在map表首个包含此code的元素的索引$/;"	m	struct:vtn
+map_idx	icc.h	/^	int map_idx; \/\/在map表首个包含此code的元素的索引$/;"	m	struct:vtn
+map_idx	lex/lex.h	/^	int map_idx; 			\/\/map表首个包含此code的元素的索引$/;"	m	struct:vtn
+mark	lex/lex.c	/^void mark(struct seek *seek, int scan, int next)$/;"	f
+me	test/test_init.c	/^	} me;$/;"	m	struct:a	typeref:struct:a::__anon3	file:
+me	test/test_typedef.c	/^typedef struct me {$/;"	s	file:
+member_list	grammar/grammar.h	/^	void *member_list;	\/\/结构体成员列表头指针$/;"	m	struct:tree_node
+mul_exp	test/test_exp.c	/^int mul_exp(void)$/;"	f
+multiplicative_expression	grammar/grammar.0.1.c	/^void multiplicative_expression()$/;"	f
+multiplicative_expression	grammar/grammar.0.2.c	/^void multiplicative_expression()$/;"	f
+multiplicative_expression	grammar/grammar.c	/^void multiplicative_expression()$/;"	f
+name	grammar/grammar.h	/^	char *name; 	\/\/id名$/;"	m	struct:tree_node
+name	lex/lex.h	/^	char *name;			\/\/存储的字符串指针$/;"	m	struct:string_hash_node
+name	test/test_struct_def.c	/^	char *name;$/;"	m	struct:__anon5	file:
+next	grammar/grammar.h	/^	int next;   \/\/标号=表索引：循环结束后下条指令位置$/;"	m	struct:tree_node
+next	grammar/grammar.h	/^	int next;$/;"	m	struct:seek
+next	grammar/ll.c	8;"	d	file:
+next	grammar/ll.h	6;"	d
+next	lex/lex.c	/^	int next;$/;"	m	struct:seek	file:
+next	lex/lex.h	/^	struct string_hash_node *next;$/;"	m	struct:string_hash_node	typeref:struct:string_hash_node::string_hash_node
+next	lex/lex.h	/^	struct string_heap *next;$/;"	m	struct:string_heap	typeref:struct:string_heap::string_heap
+next	test/test_init.c	/^	struct a *next;$/;"	m	struct:a	typeref:struct:a::a	file:
+next	test/test_struct_def.c	/^	struct a *next;$/;"	m	struct:a	typeref:struct:a::a	file:
+next_tk	grammar/grammar.h	/^int next_tk; \/\/预取token的code值$/;"	v
+no	lex/lex.h	/^int no = 1; 				\/\/行号$/;"	v
+notify_parent	stm.c	/^void notify_parent()$/;"	f
+notify_parent	test/test_all.c	/^void notify_parent()$/;"	f
+nr	grammar/grammar.h	/^	int nr;$/;"	m	struct:first_follow
+ongoing_read	test/usb-skeleton.c	/^	bool			ongoing_read;		\/* a read is going on *\/$/;"	m	struct:usb_skel	file:
+open_listenfd	stm.c	/^int open_listenfd(int port)$/;"	f
+open_listenfd	test/test_all.c	/^int open_listenfd(int port)$/;"	f
+or_exp	test/test_exp.c	/^int or_exp(void)$/;"	f
+output_error	grammar/ll.c	9;"	d	file:
+output_error	grammar/ll.h	7;"	d
+output_product	test/test_grammar.c	/^void output_product(struct bnf *set)$/;"	f
+output_stack	test/test_grammar.c	/^void output_stack(void)$/;"	f
+param_list	grammar/grammar.h	/^	void *param_list;	\/\/参数列表头指针$/;"	m	struct:tree_node
+parameter_declaration	grammar/grammar.0.1.c	/^void parameter_declaration() $/;"	f
+parameter_declaration	grammar/grammar.0.2.c	/^void parameter_declaration() $/;"	f
+parameter_declaration	grammar/grammar.c	/^void parameter_declaration() $/;"	f
+parameter_declaration	grammar/ll.c	/^void parameter_declaration() $/;"	f
+parameter_list	grammar/grammar.0.1.c	/^void parameter_list() $/;"	f
+parameter_list	grammar/grammar.0.2.c	/^void parameter_list() $/;"	f
+parameter_list	grammar/grammar.c	/^void parameter_list() $/;"	f
+parameter_list	grammar/ll.c	/^void parameter_list() $/;"	f
+parameter_type_list	grammar/grammar.0.1.c	/^void parameter_type_list() $/;"	f
+parameter_type_list	grammar/grammar.0.2.c	/^void parameter_type_list() $/;"	f
+parameter_type_list	grammar/grammar.c	/^void parameter_type_list() $/;"	f
+parameter_type_list	grammar/ll.c	/^void parameter_type_list() $/;"	f
+parent	grammar/grammar.h	/^	struct tree_node *parent;$/;"	m	struct:tree_node	typeref:struct:tree_node::tree_node
+partition	test/test_grammar.c	/^int partition(struct vtn_bnf_map *vb_map, int low, int high)  $/;"	f
+partition2	test/test_grammar.c	/^int partition2(struct vtn_bnf_map *vb_map, int low, int high)  $/;"	f
+partition_int	grammar/grammar.0.1.c	/^int partition_int(int *data, int low, int high)$/;"	f
+partition_int	grammar/grammar.0.2.c	/^int partition_int(int *data, int low, int high)$/;"	f
+partition_int	grammar/grammar.c	/^int partition_int(int *data, int low, int high)$/;"	f
+place	grammar/grammar.h	/^	unsigned int place;$/;"	m	struct:tree_node
+pointer	grammar/grammar.0.1.c	/^void pointer() $/;"	f
+pointer	grammar/grammar.0.2.c	/^void pointer() $/;"	f
+pointer	grammar/grammar.c	/^void pointer() $/;"	f
+pointer	grammar/ll.c	/^void pointer() $/;"	f
+pos	grammar/grammar.h	/^	long int pos;$/;"	m	struct:seek
+pos	lex/lex.c	/^	long int pos;$/;"	m	struct:seek	file:
+postfix_exp	test/test_exp.c	/^int postfix_exp(void)$/;"	f
+postfix_expression	grammar/grammar.0.1.c	/^void postfix_expression()$/;"	f
+postfix_expression	grammar/grammar.0.2.c	/^void postfix_expression()$/;"	f
+postfix_expression	grammar/grammar.c	/^void postfix_expression()$/;"	f
+pre_scan	grammar/grammar.h	/^int pre_scan = FALSE;$/;"	v
+preprocess	lex/lex.c	/^int preprocess(void)$/;"	f
+primary_expression	grammar/grammar.0.1.c	/^void primary_expression()$/;"	f
+primary_expression	grammar/grammar.0.2.c	/^void primary_expression()$/;"	f
+primary_expression	grammar/grammar.c	/^void primary_expression()$/;"	f
+printf	test/test_dot.c	/^void printf(char ch, int argc, ...)$/;"	f
+printf	test/test_dot.c	/^void printf(int argc, ...)$/;"	f
+punct_lex	lex/lex.c	/^int punct_lex(void)$/;"	f
+put_string_table	lex/lex.c	/^void put_string_table(char *name)$/;"	f
+queueAdd	stm.c	/^void queueAdd(void * q, int in)$/;"	f
+queueAdd	test/test_all.c	/^void queueAdd(void * q, int in)$/;"	f
+queueDel	stm.c	/^void queueDel(void * q, int * out)$/;"	f
+queueDel	test/test_all.c	/^void queueDel(void * q, int * out)$/;"	f
+queueDelete	stm.c	/^void queueDelete(void* q)$/;"	f
+queueDelete	test/test_all.c	/^void queueDelete(void* q)$/;"	f
+queueInit	stm.c	/^int *queueInit(void)$/;"	f
+queueInit	test/test_all.c	/^int *queueInit(void)$/;"	f
+read_source	lex/lex.c	/^void read_source(char *filename)$/;"	f
+reduction	test/test_program.c	/^int (*reduction[])(int i) = {$/;"	v
+relational_exp	test/test_exp.c	/^int relational_exp(void)$/;"	f
+relational_expression	grammar/grammar.0.1.c	/^void relational_expression()$/;"	f
+relational_expression	grammar/grammar.0.2.c	/^void relational_expression()$/;"	f
+relational_expression	grammar/grammar.c	/^void relational_expression()$/;"	f
+release_lex	lex/lex.c	/^void release_lex(void)$/;"	f
+release_string_heap	lex/lex.c	/^void release_string_heap(void)$/;"	f
+return_string	lex/lex.c	/^int return_string(char *word, int size)$/;"	f
+right	grammar/grammar.h	/^	int right[11]; \/\/right[0]左部，right[1-10]右部$/;"	m	struct:bnf
+roll_back	lex/lex.c	/^void roll_back(struct seek *seek, int *scan, int *next)$/;"	f
+s	test/test_base_tp.c	/^short int s;$/;"	v
+s	test/test_base_tp.c	/^short s;$/;"	v
+s	test/test_base_tp.c	/^signed short int s;$/;"	v
+s	test/test_base_tp.c	/^signed short s;$/;"	v
+s	test/test_base_tp.c	/^unsigned short int s;$/;"	v
+s	test/test_base_tp.c	/^unsigned short s;$/;"	v
+scan	grammar/grammar.h	/^	int scan;$/;"	m	struct:seek
+scan	grammar/ll.c	/^int scan;$/;"	v
+scan	grammar/ll.h	/^int scan;$/;"	v
+scan	lex/lex.c	/^	int scan;$/;"	m	struct:seek	file:
+search_get_string_table	lex/lex.c	/^char *search_get_string_table(char *name)$/;"	f
+search_tb	grammar/grammar.0.1.c	/^void *search_tb(void *name)$/;"	f
+search_tb	grammar/grammar.0.2.c	/^void *search_tb(void *name)$/;"	f
+search_tb	grammar/grammar.c	/^void *search_tb(void *name)$/;"	f
+seek	grammar/grammar.h	/^struct seek{$/;"	s
+seek	lex/lex.c	/^struct seek{$/;"	s	file:
+select_loop	stm.c	/^void select_loop(int listenfd)$/;"	f
+select_loop	test/test_all.c	/^void select_loop(int listenfd)$/;"	f
+selection_statement	grammar/grammar.0.1.c	/^void selection_statement()$/;"	f
+selection_statement	grammar/grammar.0.2.c	/^void selection_statement()$/;"	f
+selection_statement	grammar/grammar.c	/^void selection_statement()$/;"	f
+shift_exp	test/test_exp.c	/^int shift_exp(void)$/;"	f
+shift_expression	grammar/grammar.0.1.c	/^void shift_expression()$/;"	f
+shift_expression	grammar/grammar.0.2.c	/^void shift_expression()$/;"	f
+shift_expression	grammar/grammar.c	/^void shift_expression()$/;"	f
+shutdown_connection	stm.c	/^void shutdown_connection(void * fds, int i, int nbytes, void * pMaster)$/;"	f
+shutdown_connection	test/test_all.c	/^void shutdown_connection(void * fds, int i, int nbytes, void * pMaster)$/;"	f
+sibling	grammar/grammar.h	/^	struct tree_node *sibling;$/;"	m	struct:tree_node	typeref:struct:tree_node::tree_node
+size	lex/lex.h	/^	int size;			\/\/存储的字符串个数$/;"	m	struct:string_heap
+skel_delete	test/usb-skeleton.c	/^static void skel_delete(struct kref *kref)$/;"	f	file:
+skel_disconnect	test/usb-skeleton.c	/^static void skel_disconnect(struct usb_interface *interface)$/;"	f	file:
+skel_do_read_io	test/usb-skeleton.c	/^static int skel_do_read_io(struct usb_skel *dev, int count)$/;"	f	file:
+skel_draw_down	test/usb-skeleton.c	/^static void skel_draw_down(struct usb_skel *dev)$/;"	f	file:
+skel_driver	test/usb-skeleton.c	/^static struct usb_driver skel_driver;$/;"	v	typeref:struct:usb_driver	file:
+skel_flush	test/usb-skeleton.c	/^static int skel_flush(struct file *file, fl_owner_t id)$/;"	f	file:
+skel_open	test/usb-skeleton.c	/^static int skel_open(struct inode *inode, struct file *file)$/;"	f	file:
+skel_post_reset	test/usb-skeleton.c	/^static int skel_post_reset(struct usb_interface *intf)$/;"	f	file:
+skel_pre_reset	test/usb-skeleton.c	/^static int skel_pre_reset(struct usb_interface *intf)$/;"	f	file:
+skel_probe	test/usb-skeleton.c	/^static int skel_probe(struct usb_interface *interface,$/;"	f	file:
+skel_read	test/usb-skeleton.c	/^static int skel_read(struct file *file, char *buffer, int count,$/;"	f	file:
+skel_read_bulk_callback	test/usb-skeleton.c	/^static void skel_read_bulk_callback(struct urb *urb)$/;"	f	file:
+skel_release	test/usb-skeleton.c	/^static int skel_release(struct inode *inode, struct file *file)$/;"	f	file:
+skel_resume	test/usb-skeleton.c	/^static int skel_resume(struct usb_interface *intf)$/;"	f	file:
+skel_suspend	test/usb-skeleton.c	/^static int skel_suspend(struct usb_interface *intf, pm_message_t message)$/;"	f	file:
+skel_write	test/usb-skeleton.c	/^static int skel_write(struct file *file, const char *user_buffer,$/;"	f	file:
+skel_write_bulk_callback	test/usb-skeleton.c	/^static void skel_write_bulk_callback(struct urb *urb)$/;"	f	file:
+skip	grammar/grammar.0.1.c	/^void skip(int tk)$/;"	f
+skip	grammar/grammar.0.2.c	/^void skip(int tk)$/;"	f
+skip	grammar/grammar.c	/^void skip(int tk)$/;"	f
+skip	grammar/ll.c	/^void skip(int tk)$/;"	f
+skip_comment	lex/lex.c	/^int skip_comment(void)$/;"	f
+sort	grammar/grammar.0.1.c	/^void sort(int *data, int low, int high)$/;"	f
+sort	grammar/grammar.0.2.c	/^void sort(int *data, int low, int high)$/;"	f
+sort	grammar/grammar.c	/^void sort(int *data, int low, int high)$/;"	f
+sort_code	test/test_grammar.c	/^void sort_code(struct vtn_bnf_map *vb_map, int low, int high)$/;"	f
+sort_three	test/test_grammar.c	/^void sort_three(struct vtn_bnf_map *vb_map, int low, int high)$/;"	f
+specifier_qualifier_list	grammar/grammar.0.1.c	/^void specifier_qualifier_list() $/;"	f
+specifier_qualifier_list	grammar/grammar.0.2.c	/^void specifier_qualifier_list() $/;"	f
+specifier_qualifier_list	grammar/grammar.c	/^void specifier_qualifier_list() $/;"	f
+specifier_qualifier_list	grammar/ll.c	/^void specifier_qualifier_list() $/;"	f
+state_machine	stm.c	/^int state_machine(void * fdDataList, int i, int nbytes, void * pMaster)$/;"	f
+state_machine	test/test_all.c	/^int state_machine(void * fdDataList, int i, int nbytes, void * pMaster)$/;"	f
+statement	grammar/grammar.0.1.c	/^void statement()$/;"	f
+statement	grammar/grammar.0.2.c	/^void statement()$/;"	f
+statement	grammar/grammar.c	/^void statement()$/;"	f
+storage_class_specifier	grammar/grammar.0.1.c	/^void storage_class_specifier( ) $/;"	f
+storage_class_specifier	grammar/grammar.0.2.c	/^void storage_class_specifier( ) $/;"	f
+storage_class_specifier	grammar/grammar.c	/^void storage_class_specifier( ) $/;"	f
+storage_class_specifier	grammar/ll.c	/^void storage_class_specifier( ) $/;"	f
+str_hash_table	lex/lex.c	/^struct string_hash_node str_hash_table[STRING_HASH_TABLE_SIZE];$/;"	v	typeref:struct:string_hash_node
+str_hash_tbl	grammar/grammar.h	/^unsigned char *str_hash_tbl;$/;"	v
+str_heap	lex/lex.c	/^struct string_heap str_heap;$/;"	v	typeref:struct:string_heap
+string	lex/lex.h	/^char *string = NULL; 		\/\/词法解析的id字符串$/;"	v
+string_hash_node	lex/lex.h	/^struct string_hash_node {$/;"	s
+string_heap	lex/lex.h	/^struct string_heap{$/;"	s
+string_lex	lex/lex.c	/^int string_lex(char ch)$/;"	f
+strname	grammar/grammar.h	/^	char strname[32]; \/\/vt\/n的串名$/;"	m	struct:vtn
+strname	icc.h	/^	char strname[32]; \/\/vt\/n的串名$/;"	m	struct:vtn
+strname	lex/lex.h	/^	char strname[32]; 		\/\/vt\/n的串名$/;"	m	struct:vtn
+struct_declaration	grammar/grammar.0.1.c	/^void struct_declaration() $/;"	f
+struct_declaration	grammar/grammar.0.2.c	/^void struct_declaration() $/;"	f
+struct_declaration	grammar/grammar.c	/^void struct_declaration() $/;"	f
+struct_declaration	grammar/ll.c	/^void struct_declaration() $/;"	f
+struct_declaration_list	grammar/grammar.0.1.c	/^void struct_declaration_list() $/;"	f
+struct_declaration_list	grammar/grammar.0.2.c	/^void struct_declaration_list() $/;"	f
+struct_declaration_list	grammar/grammar.c	/^void struct_declaration_list() $/;"	f
+struct_declaration_list	grammar/ll.c	/^void struct_declaration_list() $/;"	f
+struct_declarator_list	grammar/grammar.0.1.c	/^void struct_declarator_list() $/;"	f
+struct_declarator_list	grammar/grammar.0.2.c	/^void struct_declarator_list() $/;"	f
+struct_declarator_list	grammar/grammar.c	/^void struct_declarator_list() $/;"	f
+struct_declarator_list	grammar/ll.c	/^void struct_declarator_list() $/;"	f
+struct_specifier	grammar/grammar.0.1.c	/^void struct_specifier()$/;"	f
+struct_specifier	grammar/grammar.0.2.c	/^void struct_specifier()$/;"	f
+struct_specifier	grammar/grammar.c	/^void struct_specifier()$/;"	f
+struct_specifier	grammar/ll.c	/^void struct_specifier()$/;"	f
+student	test/test_init.c	/^struct a student[10] = {$/;"	v	typeref:struct:a
+submitted	test/usb-skeleton.c	/^	struct usb_anchor	submitted;		\/* in case we need to retract our submissions *\/$/;"	m	struct:usb_skel	typeref:struct:usb_skel::usb_anchor	file:
+swap	test/test_grammar.c	/^void swap(struct vtn_bnf_map *a, struct vtn_bnf_map *b)  $/;"	f
+swap_int	grammar/grammar.0.1.c	/^void swap_int(int *a, int *b)$/;"	f
+swap_int	grammar/grammar.0.2.c	/^void swap_int(int *a, int *b)$/;"	f
+swap_int	grammar/grammar.c	/^void swap_int(int *a, int *b)$/;"	f
+test	grammar/grammar.0.1.c	/^void test(int code)$/;"	f
+test	grammar/grammar.0.2.c	/^void test(int code)$/;"	f
+test	grammar/grammar.c	/^void test(int code)$/;"	f
+to_skel_dev	test/usb-skeleton.c	64;"	d	file:
+top	grammar/grammar.h	/^int top = -1; \/\/归约栈栈顶指针$/;"	v
+translation_unit	grammar/grammar.0.1.c	/^void translation_unit()$/;"	f
+translation_unit	grammar/grammar.0.2.c	/^void translation_unit()$/;"	f
+translation_unit	grammar/grammar.c	/^void translation_unit()$/;"	f
+translation_unit	grammar/ll.c	/^void translation_unit()$/;"	f
+tree_node	grammar/grammar.h	/^struct tree_node{$/;"	s
+true	grammar/grammar.h	/^	int true;   \/\/标号=表索引：条件判断真出口的指令位置$/;"	m	struct:tree_node
+type	grammar/grammar.h	/^	void *type; 		\/\/类型链表头指针$/;"	m	struct:tree_node
+type_name	grammar/grammar.0.1.c	/^void type_name() $/;"	f
+type_name	grammar/grammar.0.2.c	/^void type_name() $/;"	f
+type_name	grammar/grammar.c	/^void type_name() $/;"	f
+type_name	grammar/ll.c	/^void type_name() $/;"	f
+type_specifier	grammar/grammar.0.1.c	/^void type_specifier()$/;"	f
+type_specifier	grammar/grammar.0.2.c	/^void type_specifier()$/;"	f
+type_specifier	grammar/grammar.c	/^void type_specifier()$/;"	f
+type_specifier	grammar/ll.c	/^void type_specifier()$/;"	f
+typedef_name	grammar/grammar.0.1.c	/^void typedef_name() $/;"	f
+typedef_name	grammar/grammar.0.2.c	/^void typedef_name() $/;"	f
+typedef_name	grammar/grammar.c	/^void typedef_name() $/;"	f
+typedef_name	grammar/ll.c	/^void typedef_name() $/;"	f
+udev	test/usb-skeleton.c	/^	struct usb_device	*udev;			\/* the usb device for this device *\/$/;"	m	struct:usb_skel	typeref:struct:usb_skel::usb_device	file:
+unary_exp	test/test_exp.c	/^int unary_exp(void)$/;"	f
+unary_expression	grammar/grammar.0.1.c	/^int unary_expression()$/;"	f
+unary_expression	grammar/grammar.0.2.c	/^int unary_expression()$/;"	f
+unary_expression	grammar/grammar.c	/^int unary_expression()$/;"	f
+ungetch	lex/lex.c	/^static inline void ungetch(char ch, FILE *fp)$/;"	f	file:
+union_specifier	grammar/grammar.0.1.c	/^void union_specifier()$/;"	f
+union_specifier	grammar/grammar.0.2.c	/^void union_specifier()$/;"	f
+union_specifier	grammar/grammar.c	/^void union_specifier()$/;"	f
+union_specifier	grammar/ll.c	/^void union_specifier()$/;"	f
+usb_skel	test/usb-skeleton.c	/^struct usb_skel {$/;"	s	file:
+value	lex/lex.h	/^int value; 					\/\/词法解析出的数值值$/;"	v
+vtn	grammar/grammar.h	/^struct vtn$/;"	s
+vtn	icc.h	/^struct vtn$/;"	s
+vtn	lex/lex.h	/^struct vtn$/;"	s
+vtn_tbl	lex/lex.h	/^struct vtn vtn_tbl[VT_N_NR + 2] = {$/;"	v	typeref:struct:vtn
+worker_thread	stm.c	/^void *worker_thread(void *arg)$/;"	f
+worker_thread	test/test_all.c	/^void *worker_thread(void *arg)$/;"	f
+you	test/test_typedef.c	/^void you(int a)$/;"	f

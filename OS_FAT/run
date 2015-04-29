@@ -1,0 +1,11 @@
+#!/bin/sh 
+	set -x
+	
+	nasm loader.asm -o loader.bin
+	sudo mount -o loop newfd.img /mnt/floppy/
+	sudo cp loader.bin /mnt/floppy/ -v
+	sudo cp kernel.bin /mnt/floppy/ -v
+	sleep 1
+	sudo umount /mnt/floppy/
+
+

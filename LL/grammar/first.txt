@@ -1,0 +1,69 @@
+expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+assignment-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+assignment-operator $ = $ *= $ /= $ %= $ &= $ |= $ ^= $  += $  -= $ <<= $ >>= $ 
+constant-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+conditional-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+logical-OR-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+logical-AND-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+inclusive-OR-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+exclusive-OR-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+AND-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+equality-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+relational-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+shift-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+additive-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+multiplicative-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+cast-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+unary-expression $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+unary-operator $  + $  - $ * $ & $ ! $ ~ $ 
+postfix-expression $ CONST $ STR $ ID $ ( $ 
+argument-expression-list $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+primary-expression $ CONST $ STR $ ID $ ( $ 
+
+declaration-list $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+declaration $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+declaration-specifiers $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+storage-class-specifier $ typedef $ extern $ static $ 
+type-specifier $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+struct-specifier $ struct $ 
+union-specifier $ union $ 
+struct-declaration-list $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+struct-declaration $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+specifier-qualifier-list $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+struct-declarator-list $ * $ ID $ ( $ 
+enum-specifier $ enum $ 
+enumerator-list $ ID $ 
+enumerator $ ID $ 
+enumeration-constant $ ID $ 
+typedef-name $ ID $ 
+init-declarator-list $ * $ ID $ ( $ 
+init-declarator $ * $ ID $ ( $ 
+declarator $ * $ ID $ ( $ 
+pointer $ * $ 
+direct-declarator $ ID $ ( $ 
+parameter-type-list $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+parameter-list $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+parameter-declaration $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+type-name $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+abstract-declarator $ * $ ( $ [ $ 
+direct-abstract-declarator $ (  $ [ $ 
+initializer $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ { $ 
+initializer-list $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ { $ [ $ . $ 
+designation $ [ $ . $ 
+designator-list $ [ $ . $ 
+designator $ [ $ . $ 
+statement $ ID $ { $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ 
+labeled-statement $ ID $ 
+compound-statement $ { $ 
+block-item-list $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ { $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ 
+block-item $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ { $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ 
+expression-statement $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ ; $ 
+selection-statement $ if $ switch $ 
+case-block $ case $ 
+case-labeled-statement-list $ case $ 
+case-labeled-statement $ case $ 
+iteration-statement $ while $ do $ for $ 
+jump-statement $ goto $ continue $ break $ return $ 
+translation-unit $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+function-definition-list $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+function-definition $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 

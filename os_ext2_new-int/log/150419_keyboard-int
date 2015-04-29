@@ -1,0 +1,9 @@
+1.调试异常框架
+2.ud2异常指令会是选择子的值变成8
+3.在异常处理函数(init_idt.c)中调用disp_str会改变变量i的值：
+	解决disp_str汇编函数中改变寄存器esi值的问题。增加push，pop
+4.完成响应键盘中断的功能。
+	4.1 在kernel.asm中添加中断处理程序，其最终都会调用i8259.c中的spurious_irq
+	4.2 将上面的函数添加进IDT
+	4.3 打开中断，更改i8259.c中 out_byte(INT_M_CTLMASK,0xFD)
+	4.4 打开中断，kernel.asm中sti指令

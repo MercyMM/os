@@ -1,0 +1,68 @@
+expression $ : $ ] $ , $ ) $ ; $ 
+assignment-expression $ : $ ] $ , $ ) $ ; $ } $ 
+assignment-operator $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+constant-expression $ ] $ : $ 
+conditional-expression $ : $ ] $ , $ ) $ ; $ } $ 
+logical-OR-expression $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+logical-AND-expression $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+inclusive-OR-expression $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+exclusive-OR-expression $ ^ $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+AND-expression $ & $ ^ $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+equality-expression $ != $  == $ & $ ^ $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+relational-expression $ < $ > $ >= $ <= $ != $  == $ & $ ^ $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+shift-expression $ << $ >> $ < $ > $ >= $ <= $ != $  == $ & $ ^ $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+additive-expression $  + $  - $ << $ >> $ < $ > $ >= $ <= $ != $  == $ & $ ^ $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+multiplicative-expression $  * $  / $  % $  + $  - $ << $ >> $ < $ > $ >= $ <= $ != $  == $ & $ ^ $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+cast-expression $  *  $  /  $  %  $  + $  - $ <<  $ >>  $ <  $ >  $ >=  $ <=  $ !=  $  == $ & $ ^  $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ 
+unary-expression $  *  $  /  $  %  $  + $  - $ <<  $ >>  $ <  $ >  $ >=  $ <=  $ !=  $  == $ & $ ^  $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ = $ *= $ /= $ %= $ &= $ |= $ ^= $  += $  -= $ <<= $ >>= $ 
+unary-operator $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ID $ ( $ sizeof $ 
+postfix-expression $ [ $ ( $ . $  ->  $  ++  $  --  $  *  $  /  $  %  $  + $  - $ <<  $ >>  $ <  $ >  $ >=  $ <=  $ !=  $  == $ & $ ^  $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ = $ *= $ /= $ %= $ &= $ |= $ ^= $  += $  -= $ <<= $ >>= $ 
+argument-expression-list $ ) $ , $ 
+primary-expression $ [ $ ( $ . $  ->  $  ++  $  --  $  *  $  /  $  %  $  + $  - $ <<  $ >>  $ <  $ >  $ >=  $ <=  $ !=  $  == $ & $ ^  $ | $ && $ || $ ? $ : $ ] $ , $ ) $ ; $ } $ = $ *= $ /= $ %= $ &= $ |= $ ^= $  += $  -= $ <<= $ >>= $ 
+declaration-list $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ # $ 
+declaration $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ # $ { $ } $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ 
+declaration-specifiers $ ; $ * $ ID $ ( $ , $ ) $ [ $ 
+storage-class-specifier $ ; $ * $ ID $ ( $ , $ ) $ [ $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ 
+type-specifier $ ; $ * $ ID $ ( $ , $ ) $ [ $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ 
+struct-specifier $ ; $ * $ ID $ ( $ , $ ) $ [ $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ 
+union-specifier $ ; $ * $ ID $ ( $ , $ ) $ [ $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ 
+struct-declaration-list $ } $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+struct-declaration $ } $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ 
+specifier-qualifier-list $ * $ ID $ ( $ ) $ [ $ 
+struct-declarator-list $ ; $ , $ 
+enum-specifier $ ; $ * $ ID $ ( $ , $ ) $ [ $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ 
+enumerator-list $ } $ , $ 
+enumerator $ } $ , $ 
+enumeration-constant $ } $ , $  = $ 
+typedef-name $ ; $ * $ ID $ ( $ , $ ) $ [ $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ 
+init-declarator-list $ ; $ , $ 
+init-declarator $ ; $ , $ 
+declarator $ ; $ , $  = $ { $ ) $ 
+pointer $ ID $ ( $ ) $ , $ [ $ 
+direct-declarator $ ; $ , $  = $ { $ ( $ ) $ [ $ 
+parameter-type-list $ ) $ 
+parameter-list $ , $ ) $ 
+parameter-declaration $ , $ ) $ 
+type-name $ ) $ 
+abstract-declarator $ ) $ , $ 
+direct-abstract-declarator $ ) $ , $ [ $ ( $ 
+initializer $ } $ , $ ; $ 
+initializer-list $ } $ , $ 
+designation $ [ $ . $ 
+designator-list $  = $ [ $ . $ 
+designator $  = $ [ $ . $ 
+statement $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ case $ default $ ID $ { $ } $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ else $ 
+labeled-statement $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ { $ } $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ else $ 
+compound-statement $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ { $ } $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ else $ 
+block-item-list $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ { $ } $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ 
+block-item $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ { $ } $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ 
+expression-statement $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ { $ } $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ else $ 
+selection-statement $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ { $ } $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ else $ 
+case-block $ } $ 
+case-labeled-statement-list $ } $ default $ case $ 
+case-labeled-statement $ } $ default $ case $ 
+iteration-statement $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ { $ } $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ else $ 
+jump-statement $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ { $ } $  + $  - $ * $ & $ ! $ ~ $  ++ $  -- $ CONST $ STR $ ( $ sizeof $ ; $ if $ switch $ while $ do $ for $ goto $ continue $ break $ return $ else $ 
+translation-unit $ # $ 
+function-definition-list $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ # $ 
+function-definition $ typedef $ extern $ static $ void $ char $ short $ int $ long $ float $ double $ signed $ unsigned $ struct $ union $ enum $ ID $ # $ 

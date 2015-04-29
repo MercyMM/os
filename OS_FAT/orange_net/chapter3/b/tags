@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIN	Makefile	/^BIN:=$(subst .asm,.com,$(SRC))$/;"	m
+Code16Len	pmtest2.asm	/^Code16Len	equ	$ - LABEL_SEG_CODE16$/;"	d
+DataLen	pmtest2.asm	/^DataLen			equ	$ - LABEL_DATA$/;"	d
+DispAL	pmtest2.asm	/^DispAL:$/;"	l
+DispReturn	pmtest2.asm	/^DispReturn:$/;"	l
+GdtLen	pmtest2.asm	/^GdtLen		equ	$ - LABEL_GDT	; GDT长度$/;"	d
+GdtPtr	pmtest2.asm	/^GdtPtr		dw	GdtLen - 1	; GDT界限$/;"	d
+LABEL_BEGIN	pmtest2.asm	/^LABEL_BEGIN:$/;"	l
+LABEL_DATA	pmtest2.asm	/^LABEL_DATA:$/;"	l
+LABEL_DESC_CODE16	pmtest2.asm	/^LABEL_DESC_CODE16: Descriptor    0,         0ffffh, DA_C      ; 非一致代码段, 16$/;"	l
+LABEL_DESC_CODE32	pmtest2.asm	/^LABEL_DESC_CODE32: Descriptor    0, SegCode32Len-1, DA_C+DA_32; 非一致代码段, 32$/;"	l
+LABEL_DESC_DATA	pmtest2.asm	/^LABEL_DESC_DATA:   Descriptor    0,      DataLen-1, DA_DRW    ; Data$/;"	l
+LABEL_DESC_NORMAL	pmtest2.asm	/^LABEL_DESC_NORMAL: Descriptor    0,         0ffffh, DA_DRW    ; Normal 描述符$/;"	l
+LABEL_DESC_STACK	pmtest2.asm	/^LABEL_DESC_STACK:  Descriptor    0,     TopOfStack, DA_DRWA+DA_32; Stack, 32 位$/;"	l
+LABEL_DESC_TEST	pmtest2.asm	/^LABEL_DESC_TEST:   Descriptor 0500000h,     0ffffh, DA_DRW$/;"	l
+LABEL_DESC_VIDEO	pmtest2.asm	/^LABEL_DESC_VIDEO:  Descriptor  0B8000h,     0ffffh, DA_DRW    ; 显存首地址$/;"	l
+LABEL_GDT	pmtest2.asm	/^LABEL_GDT:         Descriptor    0,              0, 0         ; 空描述符$/;"	l
+LABEL_GO_BACK_TO_REAL	pmtest2.asm	/^LABEL_GO_BACK_TO_REAL:$/;"	l
+LABEL_REAL_ENTRY	pmtest2.asm	/^LABEL_REAL_ENTRY:		; 从保护模式跳回到实模式就到了这里$/;"	l
+LABEL_SEG_CODE16	pmtest2.asm	/^LABEL_SEG_CODE16:$/;"	l
+LABEL_SEG_CODE32	pmtest2.asm	/^LABEL_SEG_CODE32:$/;"	l
+LABEL_STACK	pmtest2.asm	/^LABEL_STACK:$/;"	l
+OffsetPMMessage	pmtest2.asm	/^OffsetPMMessage		equ	PMMessage - $\$$/;"	d
+OffsetStrTest	pmtest2.asm	/^OffsetStrTest		equ	StrTest - $\$$/;"	d
+PMMessage	pmtest2.asm	/^PMMessage:		db	"In Protect Mode now. ^-^", 0	; 在保护模式中显示$/;"	d
+SPValueInRealMode	pmtest2.asm	/^SPValueInRealMode	dw	0$/;"	d
+SRC	Makefile	/^SRC:=pmtest2.asm$/;"	m
+SegCode32Len	pmtest2.asm	/^SegCode32Len	equ	$ - LABEL_SEG_CODE32$/;"	d
+SelectorCode16	pmtest2.asm	/^SelectorCode16		equ	LABEL_DESC_CODE16	- LABEL_GDT$/;"	d
+SelectorCode32	pmtest2.asm	/^SelectorCode32		equ	LABEL_DESC_CODE32	- LABEL_GDT$/;"	d
+SelectorData	pmtest2.asm	/^SelectorData		equ	LABEL_DESC_DATA		- LABEL_GDT$/;"	d
+SelectorNormal	pmtest2.asm	/^SelectorNormal		equ	LABEL_DESC_NORMAL	- LABEL_GDT$/;"	d
+SelectorStack	pmtest2.asm	/^SelectorStack		equ	LABEL_DESC_STACK	- LABEL_GDT$/;"	d
+SelectorTest	pmtest2.asm	/^SelectorTest		equ	LABEL_DESC_TEST		- LABEL_GDT$/;"	d
+SelectorVideo	pmtest2.asm	/^SelectorVideo		equ	LABEL_DESC_VIDEO	- LABEL_GDT$/;"	d
+StrTest	pmtest2.asm	/^StrTest:		db	"ABCDEFGHIJKLMNOPQRSTUVWXYZ", 0$/;"	d
+TestRead	pmtest2.asm	/^TestRead:$/;"	l
+TestWrite	pmtest2.asm	/^TestWrite:$/;"	l
+TopOfStack	pmtest2.asm	/^TopOfStack	equ	$ - LABEL_STACK - 1$/;"	d
+org	pmtest2.asm	/^org	0100h$/;"	l
