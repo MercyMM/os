@@ -2,6 +2,7 @@
 # Makefile for Orange'S #
 #########################
 #just test
+#test pulll request
 # Entry point of Orange'S
 # It must have the same value with 'KernelEntryPointPhyAddr' in load.inc!
 ENTRYPOINT	= 0x100000
